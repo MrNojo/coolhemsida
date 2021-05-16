@@ -1,11 +1,32 @@
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: #6885c4;
-    padding: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+header div{
+    width: 70%;
+}
+header div h2{
+    text-align: left;
 }
 main {
+    display: flex;
+    justify-content: space-between;
     background-color: #f9f9f9;
-
-
+    height: 1000px;
+}
+.articles {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.articles article {
+    width: 30%;
+}
+.sidepanel {
+    width: 15%;
 }
 body {
     margin: 0;
