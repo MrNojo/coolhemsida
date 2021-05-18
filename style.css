@@ -15,7 +15,6 @@ main {
     display: flex;
     justify-content: space-between;
     background-color: #f9f9f9;
-    height: 1000px;
 }
 .articles {
     width: 70%;
@@ -23,7 +22,13 @@ main {
     flex-wrap: wrap;
 }
 .articles article {
-    width: 30%;
+    width: 200px;
+    border:1px black solid;
+    padding: 3%;
+}
+.articles article img {
+    width: 200px;
+    height: auto;
 }
 .sidepanel {
     width: 15%;
