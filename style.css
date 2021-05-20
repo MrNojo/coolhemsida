@@ -1,4 +1,6 @@
 .upperheader {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
     display: flex;
     background-color: #6885c4;
     padding-top: 0.5%;
@@ -11,17 +13,18 @@ header div h2{
     text-align: left;
 }
 .headercontent{
-    width: 70%;
+    width: 68%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .gragaslink{
+    font-size: 1.1rem;
     height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #FFE0AC;
+    border: 2px dotted #FFACB7;
     padding: 1px;
 }
 a {
@@ -36,27 +39,36 @@ nav{
     padding: 0.25%;
     background-color: #FFACB7;
 }
+.navigation{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
 main {
     display: flex;
     justify-content: space-between;
-    background-color: #f9f9f9;
+    background-color: #F9F9F9;
 }
 .articles {
-    width: 70%;
+    width: 72%;
     display: flex;
     flex-wrap: wrap;
 }
 .articles article {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     width: 200px;
-    border:1px black solid;
+    height: 370px;
+    border:1px solid black;
     padding: 3%;
     margin: 1%
 }
 .articles article img {
     width: 200px;
+    border: 2px #FFACB7 solid;
 }
 .sidepanel {
-    width: 15%;
+    width: 16%;
 }
 body {
     margin: 0;
@@ -68,4 +80,32 @@ footer{
     background-color: #6885c4;
     padding: 10px;
     align-items: center;
+}
+.content {
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 72%;
+    height: 750px;
+    display: flex;
+
+}
+.content img {
+    padding-top: 100px;
+    width:300px;
+    height: 423.38px;
+    margin: 1%;
+}
+.content p {
+
+    font-weight: 300;
+    margin: 1%;
+    padding: 2%;
+    height: 460px;
+    border: 1px dotted #FFACB7;
+}
+.content h3 {
+    width: 120px;
+    border: 1px dotted #FFACB7;
+    font-weight: 400;
+    padding: 2%;
+    margin: 1%;
 }
